@@ -14,8 +14,7 @@ if($n == count($primes)){
 	exit();
 }
 
-//Loop through all the numbers until we find the nth prime
-//We loop through the odd numbers only
+//Loop through all the odd numbers until we find the nth prime
 for($primeCandidate=3; ;$primeCandidate = $primeCandidate+2 ){
 	if(isPrime($primeCandidate, $primes)){
 		$primes[] = $primeCandidate;

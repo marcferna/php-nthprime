@@ -1,0 +1,3 @@
+PHP script to find the Nth prime number
+Usage:
+php nthprime.php N
